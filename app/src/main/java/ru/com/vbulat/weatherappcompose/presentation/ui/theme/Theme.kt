@@ -1,4 +1,4 @@
-package ru.com.vbulat.weatherappcompose.ui.theme
+package ru.com.vbulat.weatherappcompose.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

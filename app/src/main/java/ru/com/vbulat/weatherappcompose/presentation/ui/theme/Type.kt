@@ -1,4 +1,4 @@
-package ru.com.vbulat.weatherappcompose.ui.theme
+package ru.com.vbulat.weatherappcompose.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

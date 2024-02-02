@@ -1,4 +1,4 @@
-package ru.com.vbulat.weatherappcompose.ui.theme
+package ru.com.vbulat.weatherappcompose.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
