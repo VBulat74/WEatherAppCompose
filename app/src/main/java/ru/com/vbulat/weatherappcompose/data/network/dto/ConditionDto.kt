@@ -1,0 +1,9 @@
+package ru.com.vbulat.weatherappcompose.data.network.dto
+
+import com.google.gson.annotations.SerializedName
+
+data class ConditionDto(
+    @SerializedName("text") val text : String,
+    @SerializedName("icon") val iconUrl : String,
+
+)
