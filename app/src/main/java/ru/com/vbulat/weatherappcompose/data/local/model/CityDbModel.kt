@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "favourite_ciries")
 data class CityDbModel(
-    @PrimaryKey val Id : Int,
+    @PrimaryKey val id : Int,
     val name : String,
     val country : String,
 )

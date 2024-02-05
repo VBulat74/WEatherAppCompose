@@ -5,7 +5,7 @@ import ru.com.vbulat.weatherappcompose.domain.entity.City
 
 interface FavouriteRepository {
 
-    val favouritesCities : Flow<City>
+    val favouritesCities : Flow<List<City>>
 
     fun observeIdFavourite(cityId : Int) : Flow<Boolean>
 
