@@ -113,7 +113,7 @@ class SearchStoreFactory @Inject constructor(
                                 publish(Label.SavedToFavourite)
                             }
                         }
-                        OpenReason.RegularStore -> {
+                        OpenReason.RegularSearch -> {
                             publish(Label.OpenForecast(intent.city))
                         }
                     }
